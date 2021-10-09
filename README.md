@@ -39,7 +39,7 @@ Download and install [Go](https://golang.org/)
 - Endpoint ```users```
   - GET  ```/users/<id>``` to retrieve user information
   - POST ```/users``` with http request body containing the user information
-- Endpoint ```posts```
+- Endpoint ```/posts```
   - GET ```posts/<id>``` to retrieve post information
   -POST ```/post``` with http request body containing the post information
 - Endpoint ```/posts/users```

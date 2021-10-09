@@ -37,11 +37,11 @@ Download and install [Go](https://golang.org/)
 ```
 ## Usage
 - Endpoint ```users```
-  - GET  ```/users?id=<id>``` to retrieve user information
+  - GET  ```/users/<id>``` to retrieve user information
   - POST ```/users``` with http request body containing the user information
 - Endpoint ```posts```
-  - GET ```posts?id=<id>``` to retrieve post information
+  - GET ```posts/<id>``` to retrieve post information
   -POST ```/post``` with http request body containing the post information
 - Endpoint ```/posts/users```
-  - GET ```/posts/users?id=<id>``` to retrieve posts posted by user 'id'.
+  - GET ```/posts/users/<id>``` to retrieve posts posted by user 'id'.
   
